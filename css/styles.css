@@ -256,7 +256,7 @@ background: url(../Assets/woman-holding-her-scarf-2983327\ \(1\).jpg) no-repeat 
   width: 331px;
   height: 19px;
   top: 40px;
-  left: 489px;
+  left: 509px;
   
 }
 .col-border-cont2{
@@ -264,7 +264,7 @@ background: url(../Assets/woman-holding-her-scarf-2983327\ \(1\).jpg) no-repeat 
   width: 331px;
   height: 19px;
   top: 112px;
-  left: 492px;
+  left: 510px;
   
 }
 .col-border-cont3{
@@ -272,7 +272,7 @@ background: url(../Assets/woman-holding-her-scarf-2983327\ \(1\).jpg) no-repeat 
   width: 270px;
   height: 19px;
   top: 183px;
-  left: 521px;
+  left: 541px;
   
 }
 .col-border1{
@@ -362,4 +362,411 @@ font-family: 'Karla', sans-serif;
 .trans-que2 h2{
 letter-spacing: 0.1em;
 font-family: 'Karla', sans-serif;
+}
+
+/* Section 4 */
+
+.section-4{
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 716px;
+  background: rgba(250,248,247,1)
+}
+
+.section4-content{
+  position: relative;
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  'img content'
+  'img content';
+  justify-self: center;
+  align-items: center;
+  left: 100px;
+  width: 100%;
+  height: 100%;
+  ;
+}
+
+.section4-image{
+  position: relative;
+  grid-area: img;
+  background: url(../Assets/smiling-man-in-white-turtleneck-sweater-3674249.jpg) no-repeat center;
+  height: 600px;
+  top: 20px;
+}
+
+.section4-text {
+  position: relative;
+  grid-area: content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  top: 50px;
+  left: 90px;
+}
+
+.section4-text p, .section4-text h1, .section4-text h3, #section4-btn{
+  margin-bottom: 22px;
+}
+
+.section4-text p{
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.02rem;
+  color: rgba(19, 19, 19, 1);
+  width: 425px;
+  text-align: justify;
+}
+
+.section4-text h3{
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.1rem;
+  color: rgba(19, 19, 19, 1);
+  text-transform: uppercase;
+  width: 341px;
+  text-align: center;
+}
+.section4-text h1{
+  font-family: 'Italiana', sans-serif;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 1.5;
+  letter-spacing: 0.13rem;
+  color: rgba(19, 19, 19, 1);
+  width: 514px;
+  text-align: center;
+}
+
+
+#section4-btn{
+  width: 270px;
+  padding: 12px;
+  color: floralwhite;
+  background-color: rgba(0,0,0,1);
+  text-transform: uppercase;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  margin-top: 20px;
+}
+
+#section4-btn:hover{
+  background: rgba(116,155,159,1);
+  color: rgba(19, 19, 19, 1);
+}
+
+.section4-cont-line{
+position: absolute;
+transform: rotate(90deg);
+top: 145px;
+left: 502px;
+
+}
+
+.section4-line{
+ width: 1px;
+ height: 125px;
+ background-color: rgba(19, 19, 19, 1);
+}
+
+/* Section 5 */
+
+.section-5{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 322px;
+  background-color: rgba(255,255,255,1);
+}
+
+.arrow{
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  top: 50%;
+}
+
+.arrow i{
+  position: relative;
+  font-size: 32px;
+}
+.arrow i:hover{
+  color: rosybrown;
+}
+
+.arrow i:nth-child(1){
+ margin-right: 450px;
+}
+
+.arrow i:nth-child(2){
+  margin-left: 450px;
+}
+
+.section5-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.testi3 .current{
+  display: block;
+}
+.testi2, .testi1{
+  display: none;
+}
+
+.testimonial-content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 100%;
+}
+
+.testimonial-content h2{
+  font-family: 'Karla', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.8;
+  letter-spacing: 0.1em;
+  color: rgba(19, 19, 19, 1);
+}
+
+.testimonial-content h3{
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.8;
+  letter-spacing: 0.1em;
+  color: rgba(19, 19, 19, 1);
+
+}
+
+.testimonial-content .testimonials h1{
+  font-family: 'Italiana', serif;
+  font-size: 38px;
+  font-weight: 400;
+
+  line-height: 1.5;
+  /* letter-spacing: 0.1em; */
+  color: rgba(19, 19, 19, 1);
+  width: 697px;
+    /* height: 113px; */
+    margin: 40px 0 30px 0;
+}
+
+.testi-cont1{
+  position: absolute;
+  width: 331px;
+  height: 19px;
+  /* top: 40px;
+  left: 509px; */
+  
+}
+
+.testi-cont2{
+  position: absolute;
+  width: 331px;
+  height: 19px;
+  /* top: 112px;
+  left: 510px; */
+  
+}
+
+.testi-cont3{
+  position: absolute;
+  width: 270px;
+  height: 19px;
+  /* top: 183px;
+  left: 541px; */
+  
+}
+
+.testi-border1{
+width: 100%;
+height: 100%;
+background-color: rgba(239,215,211,0.5);
+box-sizing: border-box;
+outline: none;
+border-style: hidden;
+}
+
+.testi-border2{
+width: 100%;
+height: 100%;
+background-color: rgba(214,153,88,0.5);
+box-sizing: border-box;
+
+}
+
+.testi-border3{
+width: 100%;
+height: 100%;
+background-color: rgba(116,155,159,0.5);
+box-sizing: border-box;
+
+}
+
+
+
+.testi1 .testi-cont1{
+  top: 47%;
+  left: 30%;
+  width: 158px;
+  height: 19px;
+  outline: none;
+  border-style: none;
+}
+
+.testi1 .testi-cont2{
+  top: 47%;
+  right: 34.8%;
+  width: 178px;
+  height: 19px;
+}
+
+.testi1 .testi-cont3{
+  top: 64%;
+  left: 35.2%;
+  width: 189px;
+  height: 19px;
+}
+
+.testi2 .testi-cont1{
+  top: 47%;
+  left: 34.5%;
+  width: 182px;
+  height: 19px;
+  outline: none;
+  border-style: none;
+}
+
+.testi2 .testi-cont2{
+  top: 47%;
+  right: 30.5%;
+  width: 176px;
+  height: 19px;
+}
+
+.testi2 .testi-cont3{
+  top: 64%;
+  left: 35.35%;
+  width: 150px;
+  height: 19px;
+}
+
+.testi3 .testi-cont1{
+  top: 47%;
+  left: 35.5%;
+  width: 182px;
+  height: 19px;
+  outline: none;
+  border-style: none;
+}
+
+.testi3 .testi-cont2{
+  top: 47%;
+  right: 31.5%;
+  width: 76px;
+  height: 19px;
+}
+
+.testi3 .testi-cont3{
+  top: 64%;
+  left: 34.9%;
+  width: 165px;
+  height: 19px;
+}
+
+
+/* Section 6 */
+
+
+/* section-6">
+  <div class="quiz-cont">
+    <div class="quiz-image"></div>
+    <div class="quiz-content">
+      <h3>ARE YOU READY TO HIRE?</h3>
+      <h1>Quiz or optin title here</h1>
+      <button>Take the Quiz</but */
+
+
+.section-6{
+  width: 100%;
+  height: 335px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.quiz-cont{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 234px;
+}
+
+.quiz-image{
+  height: 234px;
+}
+
+.quiz-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 571px;
+  background: rgba(116,155,159,1);
+}
+
+.quiz-content h3{
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.8;
+  letter-spacing: 0.1rem;
+  color: rgba(19, 19, 19, 1);
+}
+
+.quiz-content h1{
+  font-family: 'Italiana', serif;
+  font-weight: 400;
+  font-size: 38px;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0rem;
+  color: rgba(19, 19, 19, 1);
+  margin: 15px 0;
+}
+
+.quiz-content button{
+  width: 250px;
+  height: 40px;
+  text-transform: uppercase;
+  color: floralwhite;
+  background: rgba(19, 19, 19, 1);
+  outline: none;
+  border: none;
+}
+
+.quiz-content button:hover{
+  background: rgba(214,153,88,0.5);
+  color: rgba(19, 19, 19, 1);
 }
