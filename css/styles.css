@@ -275,6 +275,7 @@ background: url(../Assets/woman-holding-her-scarf-2983327\ \(1\).jpg) no-repeat 
   left: 541px;
   
 }
+
 .col-border1{
 width: 100%;
 height: 100%;
@@ -464,6 +465,7 @@ font-family: 'Karla', sans-serif;
 #section4-btn:hover{
   background: rgba(116,155,159,1);
   color: rgba(19, 19, 19, 1);
+  cursor: pointer;
 }
 
 .section4-cont-line{
@@ -505,6 +507,7 @@ left: 502px;
 }
 .arrow i:hover{
   color: rosybrown;
+  cursor: pointer;
 }
 
 .arrow i:nth-child(1){
@@ -524,10 +527,10 @@ left: 502px;
   height: 100%;
 }
 
-.testi3 .current{
+.testi1 .current{
   display: block;
 }
-.testi2, .testi1{
+.testi3, .testi2{
   display: none;
 }
 
@@ -709,6 +712,9 @@ box-sizing: border-box;
 
 
 .section-6{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 335px;
   background-color: rgba(255, 255, 255, 1);
@@ -769,4 +775,290 @@ box-sizing: border-box;
 .quiz-content button:hover{
   background: rgba(214,153,88,0.5);
   color: rgba(19, 19, 19, 1);
+  cursor: pointer;
+}
+
+/* Section 7 Contact */
+
+.section-7{
+  width: 100%;
+  height: 470px;
+  background: rgba(255,255,255,1);
+  color: rgba(19, 19, 19, 1);
+  overflow-y: hidden;
+}
+
+.contact-cont{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 10%;
+  width: 100%;
+}
+
+.contact-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 33%;
+  margin: 40px 0 45px 0;
+  text-align: center;
+  width: 100%;
+  
+}
+
+.contact-cont h2{
+font-family: 'Karla', sans-serif;
+font-weight: 400;
+font-size: 24px;
+line-height: 1.8;
+letter-spacing: 0.1rem;
+text-transform: uppercase;
+text-align: center;
+
+}
+
+.contact1, .contact2, .contact3{
+margin: 0 40px;
+
+}
+
+.contact-content .contact1 h1{
+  color: rgba(214,153,88,1);
+}
+.contact-content .contact2 h1{
+  color: rgba(116,155,159,1);
+}
+.contact-content .contact3 h1{
+  color: rgba(239,215,211,1);
+}
+
+.contact-content h1{
+  font-family: 'Italiana', serif;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0rem;
+  text-transform: uppercase;
+}
+
+.contact-content p{
+  font-family: 'Karla', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.02rem;
+  width: 288px;
+  
+ 
+}
+
+.contact-content h3{
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.8;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  margin: 5px 0;
+}
+
+
+
+.contact-cont button{
+  width: 250px;
+  height: 40px;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  color: floralwhite;
+  background-color: rgba(19, 19, 19, 1);
+}
+
+.contact-cont button:hover{
+  color: rgba(19, 19, 19, 1);
+  background-color: rosybrown;
+  cursor: pointer;
+}
+
+/* Section 8 */
+
+.section-8{
+  width: 100%;
+  height: 283px;
+  background-color: rgba(250,248,247,1);
+  color: rgba(19, 19, 19, 1);
+}
+
+.links-cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.links-content{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-basis: 33%; */
+  width: 100%;
+  height: 100%;
+  text-align: center;
+ 
+}
+
+.links1 h1{
+  font-family: 'Italiana', serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0rem;
+  
+}
+.links1 p{
+  font-family: 'Karla', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.02rem;
+  width: 208px;
+  margin: 10px 0;
+  
+}
+
+.links1 a{
+  text-decoration: none;
+  color: rgba(19, 19, 19, 1);
+}
+.links1 h3{
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.8;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.link-col-cont{
+ position: absolute;
+  width: 133px;
+  height: 5px;
+  top: 215px;
+  left: 243px;
+  
+}
+
+.link-border{
+width: 100%;
+height: 100%;
+background-color: rgba(116,155,159,1);
+box-sizing: border-box;
+}
+
+
+.links2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 180px;
+}
+
+.links2 h1{
+  font-family: 'Italiana', serif;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 1.5;
+  letter-spacing: 0rem;
+
+}
+
+.links2 h3{
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.8;
+  letter-spacing: 0.02rem;
+  text-transform: uppercase;
+  width: 180px;
+  margin: 3px 0 15px 0;
+}
+
+.links2 .social-icons i {
+  font-weight: 700;
+  font-size: 20px;
+  color: rgba(214,153,88,1);
+  margin: 10px;
+
+}
+
+
+.links3 a{
+  text-decoration: none;
+  
+}
+.links3 h3{
+font-family: 'Karla', sans-serif;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.8;
+letter-spacing: 0.1rem;
+color: rgba(19, 19, 19, 1);
+margin: 7px 0;
+}
+
+.links3 a h3{
+font-family: 'Karla', sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.8;
+letter-spacing: 0.1rem;
+color: rgba(19, 19, 19, 1);
+}
+
+.links-line-cont1{
+position: absolute;
+/* z-index: 1; */
+/* transform: rotate(90deg); */
+top: 54px;
+left: 500px;
+
+}
+
+.links-line-cont2{
+position: absolute;
+/* transform: rotate(90deg); */
+top: 54px;
+right: 420px;
+height: auto;
+
+
+}
+
+.links-line{
+ width: 1px;
+ height: 169px;
+ background-color: rgba(19, 19, 19, 1);
+}
+
+
+
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Karla',sans-serif;
+  width: 100%;
+  height: 40px;
+  color: rgba(239,215,211,1);
+  background-color: rgba(19, 19, 19, 1);
+  font-size: 11px;
 }
